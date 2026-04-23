@@ -1,0 +1,19 @@
+python -m venv .venv
+.\.venv\Scripts\activate
+
+pip install numpy matplotlib opencv-python notebook jupyter ipykernel
+python -m ipykernel install --user --name=cv_assignment_01 --display-name="CV Assignment 01"
+pip freeze > requirements.txt
+
+
+to setup the project clone execute below comands in order
+
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+python -m ipykernel install --user --name=cv_assignment_02 --display-name="CV Assignment 02"
+
+//execute this below command after the project is commited to the git repo and before implement the notebooks, this will automaticaly clear all the notebook output cells before commiting to git.
+and run this command in the activated venv
+
+nbstripout --install
