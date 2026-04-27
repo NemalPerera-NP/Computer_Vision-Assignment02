@@ -1,0 +1,12 @@
+Q3(d): SIFT-based homography estimation
+
+SIFT-based homography matrix H_sift:
+0.96474726 -0.26387235 101.51687650
+0.26390007 0.96479962 -96.09230647
+0.00000034 0.00000005 1.00000000
+
+
+Matching statistics:
+Number of good SIFT matches = 1061
+Number of RANSAC inliers = 1007
+Inlier ratio = 0.9491

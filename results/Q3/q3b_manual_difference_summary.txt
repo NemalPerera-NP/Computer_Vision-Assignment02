@@ -1,0 +1,4 @@
+Q3(b): Difference image using manual homography
+The warped c1 image was subtracted from c2 using cv.absdiff().
+A grayscale difference image was generated for visualization.
+Higher intensity values indicate larger differences between the aligned images.
